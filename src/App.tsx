@@ -76,7 +76,7 @@ function HomePage() {
                 <img
                     width="400px"
                     height="400px"
-                    src="/posters/hero.webp"
+                    src=`${import.meta.env.BASE_URL}/posters/hero.webp`
                     alt="Förhandsvisning av utvald 3D-karaktär"
                 />
                 <br/>
