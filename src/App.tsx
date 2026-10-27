@@ -135,7 +135,6 @@ console.log("Modellen hittades", project.model);
           auto-rotate
           rotation-per-second="12deg"
           shadow-intensity="1"
-          exposure="1"
           environment-image="neutral"
           interaction-prompt="auto"
           loading="eager"
