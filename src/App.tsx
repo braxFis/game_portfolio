@@ -18,11 +18,11 @@ function Header() {
       </button>
       <nav className={menuOpen ? "nav nav-open" : "nav"}>
         <NavLink to="/" end onClick={() => setMenuOpen(false)}>Hem</NavLink>
-        <a href="/#work" onClick={() => setMenuOpen(false)}>Portfolio</a>
-        <a href="/#about" onClick={() => setMenuOpen(false)}>Om mig</a>
+        <a href="/game_portfolio/#work" onClick={() => setMenuOpen(false)}>Portfolio</a>
+        <a href="/game_portfolio/#about" onClick={() => setMenuOpen(false)}>Om mig</a>
         <a href="mailto:gatsfieldnavid@gmail.com" onClick={() => setMenuOpen(false)}>Kontakt <ArrowUpRight size={13} /></a>
       </nav>
-      <a className="availability" href="mailto:hello@example.com"><span /> Tillgänglig för möjligheter</a>
+      <a className="availability" href="mailto:gatsfieldnavid@gmail.com"><span /> Tillgänglig för möjligheter</a>
     </header>
   );
 }
