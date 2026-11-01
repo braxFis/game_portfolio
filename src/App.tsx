@@ -9,6 +9,7 @@ import { projects, type Project } from "./data/projects";
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
+    <title>Game Portfolio</title>
     <header className="site-header">
       <Link to="/" className="brand" aria-label="Till startsidan">
         <span className="brand-mark">◈</span><span>PORTFOLIO<span className="brand-dot">.</span></span>
