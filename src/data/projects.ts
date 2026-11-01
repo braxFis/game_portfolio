@@ -143,7 +143,7 @@ export const projects: Project[] = [
     title: "PPS",
     category:"Prop",
     model: `${import.meta.env.BASE_URL}models/PPS.glb`,
-    poster: `${import.meta.env.BASE_URL}posters/pps.png`,
+    poster: `${import.meta.env.BASE_URL}posters/PPS.png`,
     description: "A PPS model",
     software: ["Blender", "Substance 3D Painter", "ZBrush"],
     year: "2025",
