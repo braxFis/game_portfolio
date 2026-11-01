@@ -137,5 +137,25 @@ export const projects: Project[] = [
     description:"The character Calvin from Cuda Graale 2",
     software: ["Blender", "Substance 3D Painter", "ZBrush"],
     year: "2025",
+  },
+  {
+    id: "pps",
+    title: "PPS",
+    category:"Prop",
+    model: `${import.meta.env.BASE_URL}models/PPS.glb`,
+    poster: `${import.meta.env.BASE_URL}posters/pps.png`,
+    description: "A PPS model",
+    software: ["Blender", "Substance 3D Painter", "ZBrush"],
+    year: "2025",
+  },
+  {
+    id: "building 1",
+    title: "Building 1",
+    category: "Environment",
+    model: `${import.meta.env.BASE_URL}models/Building1.glb`,
+    poster: `${import.meta.env.BASE_URL}posters/Building_Basement.png`,
+    description: "A building from Cuda Graale 2",
+    software: ["Blender", "Substance 3D Painter", "ZBrush"],
+    year: "2025",
   }
 ];
